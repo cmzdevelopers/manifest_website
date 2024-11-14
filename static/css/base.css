@@ -33,7 +33,6 @@ section {
 
 section p {
 	font-size: 18px;
-	/* text-align: justify; */
 }
 
 section li {
@@ -44,22 +43,23 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 }
 
-/* h1 {
-	color: var(--orange);
-}
-
-h2, h3 {
-	color: var(--blue);
-}
-
-h4, h5, h6 {
-	color: var(--green);
-} */
-
-b {
-	color: var(--green);
-}
-
 footer p {
 	font-size: 18px;
+}
+
+@media screen and (max-width: 800px) {
+	section {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: 0;
+	}
+
+	footer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	p {
+		text-align: justify;
+	}
 }
