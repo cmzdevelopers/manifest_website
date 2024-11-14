@@ -27,6 +27,10 @@ header p {
 	font-size: 18px;
 }
 
+header img {
+	filter: invert(100%) brightness(5%);
+}
+
 section {
 	margin-left: 150px;
 }
