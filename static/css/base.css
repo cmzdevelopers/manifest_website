@@ -17,6 +17,7 @@
 
 body {
 	font-family: "Segoe Print";
+	/* font-family: "Vollkorn"; */
 	min-width: 300px;
 	max-width: 900px;
 	margin-left: auto;
@@ -37,6 +38,9 @@ section {
 
 section p {
 	font-size: 18px;
+	/* text-align: justify;
+	word-break: break-word;
+	hyphens: auto; */
 }
 
 section li {
